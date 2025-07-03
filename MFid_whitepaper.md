@@ -7,7 +7,7 @@
 
 ### Abstract
 
-The Mechanical Firmware Index (MFid) is a proposed behavioral fidelity metric designed to evaluate whether a software-defined system behaves with the same deterministic integrity as "mechanical firmware". In an era dominated by cloud-native, AI-assisted, and embedded systems, MFid provides a novel lens for assessing system trustworthiness by measuring consistency, timing integrity, and behavioral variance under real-world conditions.
+The Mechanical Firmware Index (MFid) is a proposed behavioral fidelity metric designed to evaluate whether a software-defined system behaves with the same deterministic integrity as **mechanical systems**. In an era dominated by cloud-native, AI-assisted, and embedded systems, MFid provides a novel lens for assessing system trustworthiness by measuring consistency, timing integrity, and behavioral variance under real-world conditions.
 
 Unlike traditional metrics such as uptime, latency, or throughput, MFid emphasizes the **consistency and predictability** of system behavior across a range of operating conditions, particularly in edge cases or degraded states. MFid has immediate applications in proximity systems, voice/video communication, real-time telemetry, and safety-critical embedded platforms.
 
