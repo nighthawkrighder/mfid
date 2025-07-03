@@ -15,7 +15,7 @@ Unlike traditional metrics such as uptime, latency, or throughput, MFid emphasiz
 
 ### 1. Introduction
 
-Modern infrastructure increasingly relies on systems that appear reliable but are, in fact, highly variable in behavior. As software-defined systems replace deterministic hardware, the need arises to assess not only whether something "works" but whether it works **consistently**, like firmware.
+Modern infrastructure increasingly relies on systems that appear reliable during sales and acquisition process but are, in fact, highly variable in behavior once put to real world tests. As software-defined systems replace deterministic hardware, the need arises to assess not only whether something "works" but whether it works **consistently**, like firmware.
 
 MFid fills this gap by offering a practical and conceptual framework to measure system behavior fidelity in operational environments. This document introduces the MFid concept, its motivations, calculation models, and real-world applications.
 
