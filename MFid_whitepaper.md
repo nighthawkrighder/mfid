@@ -15,9 +15,9 @@ Unlike traditional metrics such as uptime, latency, or throughput, MFid emphasiz
 
 ### 1. Introduction
 
-Modern infrastructure increasingly relies on systems that appear reliable during sales and acquisition process but are, in fact, highly variable in behavior once put to real world tests. As software-defined systems replace deterministic hardware, the need arises to assess not only whether something "works" but whether it works **consistently**, like firmware.
+Modern infrastructure increasingly relies on systems that appear reliable during sales and acquisition process but are, in fact, highly variable in behavior once put to real world tests. As software-defined systems replace deterministic hardware, the need arises to assess not only whether something "works" but whether it works **consistently**, with mechanical precision.
 
-MFid fills this gap by offering a practical and conceptual framework to measure system behavior fidelity in operational environments. This document introduces the MFid concept, its motivations, calculation models, and real-world applications.
+MFid fills this gap by offering a practical and conceptual framework to measure system behavior fidelity in operational environments. We don't orchestrate chaos—we calibrate order. This document introduces the MFid concept, its motivations, calculation models, and real-world applications.
 
 ---
 
@@ -43,10 +43,10 @@ These are not *crashes*. They are **trust failures** — and MFid seeks to measu
 
 **Dimensions of Measurement:**
 
-- **Temporal Consistency:** Variance in timing precision (e.g. audio sync drift)
-- **Behavioral Integrity:** Deviation from expected response patterns
-- **Real-World Deviation Margin:** Measured delta between ideal behavior and observed behavior
-- **Recovery Fidelity:** How consistently a system returns to ideal state after fault injection
+- **Temporal Consistency:** Variance in timing precision (latency is entropy)
+- **Behavioral Integrity:** Deviation from expected response patterns (failure without physics is design failure)
+- **Real-World Deviation Margin:** Measured delta between ideal behavior and observed behavior (approximation, not abstraction)
+- **Recovery Fidelity:** How consistently a system returns to ideal state after fault injection (every correction is a calibration)
 
 ---
 
@@ -63,6 +63,16 @@ Example deviations:
 Deviations are mapped to impact severity and weighted accordingly.
 
 Tools like packet sniffers, custom telemetry hooks, and system-level trace logs can collect this data in real time.
+
+**MFid Scale Reference:**
+- **MFid < 0.3:** Highly abstracted, unpredictable systems with significant latency variations
+- **MFid 0.3-0.6:** Systems with moderate abstractions but reasonable performance characteristics  
+- **MFid 0.6-0.7:** High-performing software with minimal unnecessary abstractions
+- **MFid > 0.7:** The elite tier - exceptional systems that sustain firmware-like behavior despite software constraints
+- **MFid > 0.85:** Suitable for life-critical applications
+- **MFid > 0.95:** Mechanical-level reliability for emergency medicine
+
+*Note: MFid 1.0 is theoretically impossible for software systems, as it would require purely mechanical operation with zero abstraction or latency.*
 
 ---
 
@@ -158,7 +168,11 @@ Medical devices and other life saving equipment must measure MFid to determine t
 
 MFid is a call to rethink what system reliability means in the age of abstraction. As we entrust increasingly critical decisions to software-defined platforms, the cost of behavioral uncertainty rises. MFid offers a new axis for clarity — not just if it works, but **how faithfully** it works.
 
+We believe infrastructure should be **mechanical in its precision, firmware in its behavior, and deterministic in every outcome**. Every system we measure moves higher on the MFid scale, where precision trumps performance claims and abstraction is treated as technical debt that must justify its existence.
+
 The goal is not to replace existing metrics, but to **augment our understanding** of system integrity with a behavioral trust score: the Mechanical Firmware Index.
+
+**Until the world catches up, we measure. We index. We improve.**
 
 ---
 
