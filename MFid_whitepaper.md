@@ -39,7 +39,7 @@ These are not *crashes*. They are **trust failures** — and MFid seeks to measu
 
 ### 3. MFid: Concept and Definition
 
-**MFid (Mechanical Firmware Index)** is a composite score (0 to 100) that represents how firmware-like a system's behavior is under varying runtime conditions.
+**MFid (Mechanical Firmware Index)** is a composite score (0 to 1.0) that represents how firmware-like a system's behavior is under varying runtime conditions.
 
 **Dimensions of Measurement:**
 
@@ -52,7 +52,7 @@ These are not *crashes*. They are **trust failures** — and MFid seeks to measu
 
 ### 4. Methodology (Early Model)
 
-#### MFid = 100 - Σ(Weighted Deviations)
+#### MFid = 1.0 - Σ(Weighted Deviations)
 
 Example deviations:
 
@@ -132,7 +132,7 @@ Medical devices and other life saving equipment must measure MFid to determine t
 
 - **Defibrillators:** Life-saving shock delivery must be immediate and consistent. MFid measures response time variance and ensures software-defined defibrillators perform with the same reliability as mechanical predecessors.
 
-**The Life-Saving Value:** MFid provides quantifiable evidence that a software-defined medical device will perform consistently in real-world conditions, preventing the behavioral failures that could cost lives. A device with MFid score below 85 might be rejected for life-critical applications, while scores above 95 indicate mechanical-level reliability suitable for emergency medicine. 
+**The Life-Saving Value:** MFid provides quantifiable evidence that a software-defined medical device will perform consistently in real-world conditions, preventing the behavioral failures that could cost lives. A device with MFid score below 0.85 might be rejected for life-critical applications, while scores above 0.95 indicate mechanical-level reliability suitable for emergency medicine. 
 
 
 ### 6. Implementation Strategy
