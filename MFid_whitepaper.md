@@ -1,4 +1,3 @@
-
 **Mechanical Firmware Index (MFid): A Behavioral Fidelity Metric for Software-Defined Systems**
 
 *Rashid Amin | Founder, Software Defined Corporation | ramin@sdcorp.us*
@@ -9,11 +8,15 @@
 
 The Mechanical Firmware Index (MFid) is a proposed behavioral fidelity metric designed to evaluate whether a software-defined system behaves with the same deterministic integrity as **mechanical systems**. In an era dominated by cloud-native, AI-assisted, and embedded systems, MFid provides a novel lens for assessing system trustworthiness by measuring consistency, timing integrity, and behavioral variance under real-world conditions.
 
+MFid is not just a theoretical metric—it is a practical tool developed and field-tested by Software Defined Corporation in real-world, safety-critical environments.
+
 Unlike traditional metrics such as uptime, latency, or throughput, MFid emphasizes the **consistency and predictability** of system behavior across a range of operating conditions, particularly in edge cases or degraded states. MFid has immediate applications in proximity systems, voice/video communication, real-time telemetry, and safety-critical embedded platforms.
 
 ---
 
 ### 1. Introduction
+
+As the founder of Software Defined Corporation, I have witnessed firsthand how abstraction and software variability can undermine trust in critical systems. MFid is the result of years spent seeking a measurable path back to mechanical-level reliability.
 
 Modern infrastructure increasingly relies on systems that appear reliable during sales and acquisition process but are, in fact, highly variable in behavior once put to real world tests. As software-defined systems replace deterministic hardware, the need arises to assess not only whether something "works" but whether it works **consistently**, with mechanical precision.
 
@@ -172,9 +175,17 @@ We believe infrastructure should be **mechanical in its precision, firmware in i
 
 The goal is not to replace existing metrics, but to **augment our understanding** of system integrity with a behavioral trust score: the Mechanical Firmware Index.
 
+Software Defined Corporation is committed to open collaboration and real-world pilots to refine and standardize MFid. We invite partners from industry, academia, and government to join us in this mission.
+
 **Until the world catches up, we measure. We index. We improve.**
 
 ---
 
 *For interest in research collaboration, standards development, or implementation pilot programs, contact:*
 **Rashid Amin** — ramin@sdcorp.us
+
+---
+
+### About the Author
+
+**Rashid Amin** is the founder of Software Defined Corporation, a company dedicated to restoring mechanical-level reliability and trust to software-defined systems. With a background in embedded systems, real-time infrastructure, and safety-critical applications, Rashid’s work focuses on measurable, deterministic engineering for the modern era.
