@@ -1,12 +1,12 @@
 **Mechanical Firmware Index (MFid): A Behavioral Fidelity Metric for Software-Defined Systems**
 
-*Rashid Amin | Founder, Software Defined Corporation | ramin@sdcorp.us*
+*Rashid Amin | Founder, Software Defined Corporation | questions@sdcorp.us*
 
 ---
 
 ### Abstract
 
-The Mechanical Firmware Index (MFid) is a proposed behavioral fidelity metric designed to evaluate whether a software-defined system behaves with the same deterministic integrity as **mechanical systems**. In an era dominated by cloud-native, AI-assisted, and embedded systems, MFid provides a novel lens for assessing system trustworthiness by measuring consistency, timing integrity, and behavioral variance under real-world conditions.
+The Mechanical Firmware Index (MFid) is a proposed behavioral fidelity metric designed to evaluate whether a software-defined system behaves with the same deterministic integrity as **mechanical systems**. In an era dominated by cloud-native, AI-assisted, and embedded systems, MFid provides a novel lens for assessing system trustworthiness by measuring consistency, timing integrity, and behavioral variance under real-world and degraded conditions.
 
 MFid is not just a theoretical metric—it is a practical tool developed and field-tested by Software Defined Corporation in real-world, safety-critical environments.
 
@@ -129,7 +129,7 @@ Drones, vehicles, or manufacturing robots require behavioral guarantees in real-
 
 - **Industrial Assembly Robots:** Manufacturing robots installing airbags or brake components must operate with mechanical precision. MFid measures whether software-controlled robotic systems maintain consistent positioning accuracy under temperature variations and vibration.
 
-#### e) **Life Saving Equipment**
+**Life Saving Equipment**
 
 Medical devices and other life saving equipment must measure MFid to determine the risk of going Software Defined. The stakes are clear: behavioral inconsistency in medical systems directly translates to patient harm or death.
 
