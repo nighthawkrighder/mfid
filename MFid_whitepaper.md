@@ -1,4 +1,4 @@
-### Measuring Fidelity of Execution in Software-Defined Systems
+# Measuring Fidelity of Execution in Software-Defined Systems
 
 *By Software Defined Corporation*
 
