@@ -6,7 +6,7 @@
 
 ## A Software-Defined World Demands Mechanical Precision
 
-In a software-driven world, ---
+In a software-driven world,
 
 ## References
 
